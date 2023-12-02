@@ -1,0 +1,84 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome}
+
+\begin{document}
+
+\linespread{1}\selectfont
+\setlist[itemize]{left=0pt, itemsep=-5pt, topsep=0pt, after=\vspace{3pt}, label=\tiny\textbullet}
+\newcommand{\sectionrule}[1]{%
+  \section*{#1}%
+  \hrule%
+  \vspace{5pt}%
+}
+\pagestyle{empty}
+
+\begin{center}
+    \textbf{\LARGE Soobin Yang}
+    \vspace{5pt}
+    \hrule
+    \vspace{5pt}
+    \faEnvelope \hspace{1pt} \href{mailto:syang26@wooster.edu}
+    {syang26@wooster.edu}  \hspace{5pt}
+    \faGithubSquare \hspace{1pt} \href{https://github.com/uliba3}
+    {github.com/uliba3}  \hspace{5pt}
+    \faLinkedinSquare \hspace{1pt} \href{https://linkedin.com/in/soobinyang8449}
+    {linkedin.com/in/soobinyang8449}\\
+    \faGlobe \hspace{1pt} \href{https://uliba3.github.io/portfolio/}
+    {uliba3.github.io/portfolio} 
+\end{center}
+
+\sectionrule{Education}
+\textbf{The College of Wooster} \hfill \textnormal{Aug 2022 - present}\\
+\textnormal{B.A. in Mathematics}
+\begin{itemize}
+    \item Dean's List, GPA: 4.0/4.0
+\end{itemize}
+\textbf{Relevant Courses:} 
+\textnormal{Data Structures and Algorithms, Linear Algebra, Transition to Adv Mathematics, 
+Multivariate Calculus, Probability Theory, Applied Statistics}
+
+\sectionrule{Activities}
+\textbf{Competitive Programming} \hfill \textnormal{Aug 2020 - present}
+\begin{itemize}
+    \item Joined computer club in highschool and participated in various programming competitions
+    \item 18th in PC koushien Qualifiers 2020 (biggest competitive programming competition held for high school students in Japan)
+    \item 4th in Supercomputing Contest 2021 (programming competition held by the Tokyo Institute of Technology)
+\end{itemize}
+
+\sectionrule{Projects}
+\textbf{Etch A Sketch} 
+\href{https://uliba3.github.io/Etch-A-Sketch/}{\faGlobe} 
+\href{https://github.com/uliba3/Etch-A-Sketch}{\faGithub}
+\textit{HTML, CSS, JavaScript}
+\begin{itemize}
+    \item A simple web application that lets users to create, draw and save grids of customizable sizes.
+\end{itemize}
+\textbf{Task Manager} 
+\href{https://uliba3.github.io/TaskManager/}{\faGlobe}
+\href{https://github.com/uliba3/TaskManager}{\faGithub}
+\textit{HTML, CSS, JavaScript, React.js}
+\begin{itemize}
+    \item A web-based task management tool that allows users to add, edit, delete, and sort tasks.
+    \item Used redux and local storage to store and manage the state of the application.
+\end{itemize}
+\textbf{QA webapp}
+\href{https://white-voice-4708.fly.dev/}{\faGlobe}
+\href{https://github.com/uliba3/Q-A-backend}{\faGithub}
+\textit{HTML, CSS, JavaScript, React.js, Node.js, MongoDB, Fly.io}
+\begin{itemize}
+    \item A full-stack web application that enables users to post answers to random questions and view responses from other users.
+    \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
+    \item Used MongoDB to store and manage the data of the application.
+\end{itemize}
+
+\sectionrule{Skills}
+\begin{itemize}
+    \item \textbf{Programming Languages:} C++, Python, R
+    \item \textbf{Web Development:} HTML, CSS, JavaScript, React.js, Node.js, MongoDB
+    \item \textbf{Other Skills:} LaTeX, UNIX, Git, Korean, Japanese, English
+\end{itemize}
+
+\end{document}
