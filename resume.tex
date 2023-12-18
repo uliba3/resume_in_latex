@@ -7,11 +7,13 @@
 \begin{document}
 
 \linespread{1}\selectfont
-\setlist[itemize]{left=0pt, itemsep=-5pt, topsep=0pt, after=\vspace{3pt}, label=\tiny\textbullet}
-\newcommand{\sectionrule}[1]{%
-  \section*{#1}%
-  \hrule%
-  \vspace{5pt}%
+\setlist[itemize]{left=0pt, itemsep=-5pt, topsep=0pt, after=\vspace{0pt}, label=\tiny\textbullet}
+\newcommand{\sectionrule}[1]{
+  \vspace{-15pt}
+  \section*{#1}
+  \vspace{-5pt}
+  \hrule
+  \vspace{5pt}
 }
 \pagestyle{empty}
 
@@ -20,25 +22,22 @@
     \vspace{5pt}
     \hrule
     \vspace{5pt}
-    \faEnvelope \hspace{1pt} \href{mailto:syang26@wooster.edu}
-    {syang26@wooster.edu}  \hspace{5pt}
-    \faGithubSquare \hspace{1pt} \href{https://github.com/uliba3}
-    {github.com/uliba3}  \hspace{5pt}
-    \faLinkedinSquare \hspace{1pt} \href{https://linkedin.com/in/soobinyang8449}
-    {linkedin.com/in/soobinyang8449}\\
-    \faGlobe \hspace{1pt} \href{https://uliba3.github.io/portfolio/}
-    {uliba3.github.io/portfolio} 
+    \faEnvelope \hspace{1pt} \href{mailto:syang26@wooster.edu}{syang26@wooster.edu} \hspace{5pt}
+    \faGithubSquare \hspace{1pt} \href{https://github.com/uliba3}{github.com/uliba3} \hspace{5pt}
+    \faLinkedinSquare \hspace{1pt} \href{https://linkedin.com/in/soobinyang8449}{linkedin.com/in/soobinyang8449} \\
+    \faGlobe \hspace{1pt} \href{https://uliba3.github.io/portfolio/}{uliba3.github.io/portfolio}
 \end{center}
 
 \sectionrule{Education}
 \textbf{The College of Wooster} \hfill \textnormal{Aug 2022 - present}\\
 \textnormal{B.A. in Mathematics}
 \begin{itemize}
-    \item Dean's List, GPA: 4.0/4.0
+    \item Dean's List, GPA: 4.0
 \end{itemize}
-\textbf{Relevant Courses:} 
-\textnormal{Data Structures and Algorithms, Linear Algebra, Transition to Adv Mathematics, 
-Multivariate Calculus, Probability Theory, Applied Statistics}
+\textbf{Computer Science Courses:} 
+\textnormal{Data Structures and Algorithms, Database Systems, Computer Networking and Communication, Algorithm Analysis, Theory of Computation}\\
+\textbf{Mathematics Courses:} 
+\textnormal{Linear Algebra, Transition to Adv Mathematics, Multivariate Calculus, Probability Theory, Statistical Theory, Applied Statistics}
 
 \sectionrule{Activities}
 \textbf{Competitive Programming} \hfill \textnormal{Aug 2020 - present}
@@ -59,7 +58,7 @@ Multivariate Calculus, Probability Theory, Applied Statistics}
 \textbf{Task Manager} 
 \href{https://uliba3.github.io/TaskManager/}{\faGlobe}
 \href{https://github.com/uliba3/TaskManager}{\faGithub}
-\textit{HTML, CSS, JavaScript, React.js}
+\textit{React.js}
 \begin{itemize}
     \item A web-based task management tool that allows users to add, edit, delete, and sort tasks.
     \item Used redux and local storage to store and manage the state of the application.
@@ -67,11 +66,20 @@ Multivariate Calculus, Probability Theory, Applied Statistics}
 \textbf{QA webapp}
 \href{https://white-voice-4708.fly.dev/}{\faGlobe}
 \href{https://github.com/uliba3/Q-A-backend}{\faGithub}
-\textit{HTML, CSS, JavaScript, React.js, Node.js, MongoDB, Fly.io}
+\textit{React.js, Node.js, MongoDB, Fly.io}
 \begin{itemize}
     \item A full-stack web application that enables users to post answers to random questions and view responses from other users.
     \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
     \item Used MongoDB to store and manage the data of the application.
+\end{itemize}
+\textbf{BookStore webapp}
+\href{https://bookstore-backend.fly.dev/}{\faGlobe}
+\href{https://github.com/uliba3/BookStore-backend}{\faGithub}
+\textit{React.js, Node.js, MongoDB, Fly.io, google books API}
+\begin{itemize}
+    \item A full-stack web application that enables users to search books and save them.
+    \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
+    \item Used MongoDB to store and manage the data of the book form google books API.
 \end{itemize}
 
 \sectionrule{Skills}

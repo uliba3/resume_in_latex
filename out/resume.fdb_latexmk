@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1701492617 "c:/Github/resume_in_latex/resume.tex" "out/resume.pdf" "resume" 1701492618 0
-  "c:/Github/resume_in_latex/resume.tex" 1701492616 3430 e9201e6d7679aab7e3120f9c609f24c4 ""
+["pdflatex"] 1702865581 "c:/Github/resume_in_latex/resume.tex" "out/resume.pdf" "resume" 1702865582 0
+  "c:/Github/resume_in_latex/resume.tex" 1702865581 4079 a95c5970f176b618460635f511542f8e ""
   "c:/Users/sellu/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk" 1701491635 7260 09fb1b269c99c566d785ca474da65dc5 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1701487099 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1701480487 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -60,9 +60,9 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1701487103 80684 df5eb34288644ac9825923fedfa592c8 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1701480865 7530462 71a82642bc4da57006d326fbf75622c7 ""
   "c:/texlive/2023/texmf.cnf" 1701480829 713 e69b156964470283e0530f5060668171 ""
-  "out/resume.aux" 1701492618 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "out/resume.out" 1701492618 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1701492616 3430 e9201e6d7679aab7e3120f9c609f24c4 ""
+  "out/resume.aux" 1702865582 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "out/resume.out" 1702865582 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1702865581 4079 a95c5970f176b618460635f511542f8e ""
   (generated)
   "out/resume.aux"
   "out/resume.log"
