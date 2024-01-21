@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.1)  19 JAN 2024 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.1)  21 JAN 2024 11:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -200,15 +200,15 @@ LaTeX Font Info:    ... okay on input line 7.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -236,7 +236,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inpu
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 ) [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}] [2] (out/resume.aux)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}] (out/resume.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -246,17 +246,17 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  9877 strings out of 475718
- 152197 string characters out of 5784300
- 1939558 words of memory out of 5000000
- 31800 multiletter control sequences out of 15000+600000
- 560891 words of font info for 45 fonts, out of 8000000 for 9000
+ 152208 string characters out of 5784300
+ 1943558 words of memory out of 5000000
+ 31801 multiletter control sequences out of 15000+600000
+ 561198 words of font info for 46 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,5n,79p,282b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/sellu/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk><c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on out/resume.pdf (2 pages, 77158 bytes).
+ 75i,5n,79p,282b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/sellu/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk><c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on out/resume.pdf (1 page, 89532 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
