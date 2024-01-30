@@ -1,5 +1,5 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage[left=0.5in, right=0.5in, top=0.25in, bottom=0.25in]{geometry}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fontawesome}
@@ -11,7 +11,7 @@
 \newcommand{\sectionrule}[1]{
   \vspace{-15pt}
   \section*{\normalfont #1}
-  \vspace{-5pt}
+  \vspace{-10pt}
   \hrule
   \vspace{5pt}
 }
@@ -19,7 +19,6 @@
 
 \begin{center}
     \textbf{\LARGE Soobin Yang}
-    \vspace{5pt}
     \hrule
     \vspace{5pt}
     \faEnvelope \hspace{1pt} \href{mailto:yasoo8449@gmail.com}{yasoo8449@gmail.com} \hspace{5pt}
@@ -28,76 +27,84 @@
     \faGlobe \hspace{1pt} \href{https://uliba3.github.io/portfolio/}{uliba3.github.io/portfolio}
 \end{center}
 
+\vspace{-20pt}
+
 \sectionrule{Education}
-\textbf{The College of Wooster} \hfill \textnormal{Aug 2022 - present}\\
-\textnormal{B.A. in Computer Science and Mathematics}
+\textbf{\large The College of Wooster} \hfill \textnormal{Aug 2022 - May 2025}\\
+\textit{B.A. in Computer Science and Mathematics, Dean's List, GPA: 4.0}
 \begin{itemize}
-    \item Dean's List, GPA: 4.0
-    \item \textbf{Computer science courses:} Data Structures and Algorithms, Database Systems, Computer Networking and Communication, Algorithm Analysis, Theory of Computation
+    \item \textbf{Computer Science courses:} Data Structures and Algorithms, Database Systems, Computer Networking and Communication, Algorithm Analysis, Theory of Computation
     \item \textbf{Mathematics courses:} Linear Algebra, Transition to Adv Mathematics, Multivariate Calculus, Probability Theory, Statistical Theory, Applied Statistics
 \end{itemize}
 
 \sectionrule{Skills}
 \begin{itemize}
     \item \textbf{Programming Languages:} C++, Python, JavaScript, R
-    \item \textbf{Web Development:} HTML, CSS, React.js, Node.js, MongoDB, Bootstrap
+    \item \textbf{Web Development:} HTML, CSS, Bootstrap, React.js, Node.js, MongoDB
     \item \textbf{Other Skills:} LaTeX, UNIX, Git, Korean, Japanese, English
 \end{itemize}
 
 \sectionrule{Experiences}
-\textbf{\large AI engineer intern} \hfill \textnormal{Jan 2024 - present}\\
+\textbf{\large AI Solutions intern} \hfill \textnormal{Jan 2024 - present}\\
 \textit{Matsuo Institute} \hfill \textit{Remote}
 \begin{itemize}
-    \item Participated in a project to develop a web application that enables users to search books and save them.
+    \item Developed AI solutions for a new business project in Fortune 1000 global company.
+    \item Conducted research, interviews, and surveys for informed business development.
+    \item Utilized LLM and ChatGPT API for prototype generation.
+    \item Contributed to MVP development and conducted PoC.
+    \item Presented data analysis and value propositions in client interactions.
 \end{itemize}
 \textbf{\large Research Assistant} \hfill \textnormal{Jan 2024 - present}\\
 \textit{The college of Wooster} \hfill \textit{Wooster, OH}
 \begin{itemize}
     \item Conducted research in the field of perturbation theory within mathematics
-    \item Reviewed and evaluated mathematics research papers relevant to probabilistic and stochastic phenomena.
-    \item Independently computed perturbations of various mathematical objects.
-    \item Explored deep reinforcement learning (DRL) as an effective approach in Stock Prediction Using Event-based Sentiment Analysis
+    \item Reviewed and evaluated research papers relevant to probabilistic and stochastic phenomena.
+    \item Computed perturbations of various mathematical objects.
+    \item Explored deep reinforcement learning (DRL) as an effective approach in Stock Prediction Using Event-based Sentiment Analysis.
+    \item Researched machine learning papers for guidance and inspiration.
 \end{itemize}
 
 \sectionrule{Projects}
-\textbf{Etch A Sketch} 
-\href{https://uliba3.github.io/Etch-A-Sketch/}{\faGlobe} 
-\href{https://github.com/uliba3/Etch-A-Sketch}{\faGithub}
+\textbf{Browser-based Circle Game}
+\href{https://uliba3.github.io/CircleGame/}{\faGlobe}
+\href{https://github.com/uliba3/CircleGame}{\faGithub}
 \textit{HTML, CSS, JavaScript}
 \begin{itemize}
-    \item Developed a web application that lets users create, draw and save grids of customizable sizes.
+    \item Casual game to place and grow circles while avoiding collisions with the canvas edges or other circles.
+    \item Utilized event listeners for keyboard and mouse inputs to control game interactions.
+    \item Used localStroage to persist the highest score across sessions.
 \end{itemize}
-\textbf{Task Manager} 
+\textbf{Task Manager}
 \href{https://uliba3.github.io/TaskManager/}{\faGlobe}
 \href{https://github.com/uliba3/TaskManager}{\faGithub}
-\textit{React.js}
+\textit{React}
 \begin{itemize}
-    \item A web-based task management tool that allows users to add, edit, delete, and sort tasks.
-    \item Used redux and local storage to store and manage the state of the application.
+    \item A web-based task management tool to add, edit, delete, and sort tasks.
+    \item Used redux and localStorage to manage and store tasks saved.
 \end{itemize}
-\textbf{QA webapp}
+\textbf{Full-stack QA webapp}
 \href{https://white-voice-4708.fly.dev/}{\faGlobe}
 \href{https://github.com/uliba3/Q-A-backend}{\faGithub}
-\textit{React.js, Node.js, Express.js, MongoDB, Fly.io}
+\textit{React, Node.js, MongoDB, Fly.io}
 \begin{itemize}
-    \item A full-stack web application that enables users to post answers to random questions and view responses from other users.
+    \item Enables users to post and see answers to random questions saved using MongoDB.
     \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
-    \item Used MongoDB to store and manage the data of the application.
 \end{itemize}
-\textbf{BookStore webapp}
+\textbf{Full-stack BookStore webapp}
 \href{https://bookstore-backend.fly.dev/}{\faGlobe}
 \href{https://github.com/uliba3/BookStore-backend}{\faGithub}
-\textit{React.js, Node.js, MongoDB, Bootstrap, Fly.io, google books API}
+\textit{React, Node.js, MongoDB, Bootstrap, Fly.io, Google Books API}
 \begin{itemize}
-    \item A full-stack web application that enables users to search books and save them.
+    \item Users can explore and save books using the Google Books API, with data stored in MongoDB.
+    \item Employed the bcrypt library to encrypt passwords, ensuring robust security measures.
     \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
-    \item Used MongoDB to store and manage the data of the book form google books API.
+    \item Utilized Bootstrap to implement a modern interface, enhancing the overall design and user experience.
 \end{itemize}
 
 \sectionrule{Activities}
 \textbf{Competitive Programming} \hfill \textnormal{Aug 2020 - present}
 \begin{itemize}
-    \item 4th in Supercomputing Contest 2021, 18th in PC koushien Qualifiers 2020
+    \item 4th in Supercomputing Contest 2021(by Tokyo Tech), 18th in PC koushien Qualifiers 2020(by UoAizu)
 \end{itemize}
 
 \end{document}
