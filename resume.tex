@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
 \usepackage{enumitem}
+\usepackage{ragged2e}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fontawesome}
 
@@ -11,57 +12,54 @@
 \linespread{1}\selectfont
 \setlist[itemize]{left=0pt, itemsep=-5pt, topsep=0pt, after=\vspace{0pt}, label=\tiny\textbullet}
 \newcommand{\sectionrule}[1]{
-  \vspace{-15pt}
-  \section*{\normalfont #1}
-  \vspace{-10pt}
-  \hrule
   \vspace{5pt}
+  \RaggedRight
+  \textnormal{#1}
+  \hrule
+  \vspace{3pt}
 }
 \pagestyle{empty}
 
 \begin{center}
-    \textbf{\LARGE Soobin Yang}\\
-    \vspace{5pt}
-    \faEnvelope \hspace{1pt} \href{mailto:yasoo8449@gmail.com}{yasoo8449@gmail.com} \hspace{5pt}
-    \faGithubSquare \hspace{1pt} \href{https://github.com/uliba3}{github} \hspace{5pt}
-    \faLinkedinSquare \hspace{1pt} \href{https://linkedin.com/in/soobinyang8449}{linkedin}
-    \faGlobe \hspace{1pt} \href{https://uliba3.github.io/portfolio/}{portfolio}
+    \textbf{\Large Soobin Yang}\\
+    \faEnvelope \href{mailto:yasoo8449@gmail.com}{yasoo8449@gmail.com} \hspace{1pt}
+    \faGithubSquare \href{https://github.com/uliba3}{Github} \hspace{1pt}
+    \faLinkedinSquare \href{https://linkedin.com/in/soobinyang8449}{Linkedin} \hspace{1pt}
+    \faGlobe \href{https://uliba3.github.io/portfolio/}{Portfolio}
 \end{center}
 
 \vspace{-20pt}
 
 \sectionrule{Education}
-\textbf{\large The College of Wooster} \hfill \textnormal{Class of 2025}\\
-\textnormal{B.A. in Computer Science and Mathematics} \hfill \textnormal{4.0 GPA}\\
+\textbf{The College of Wooster} \hfill \textnormal{May 2025}\\
+\textnormal{B.A. in Computer Science and Mathematics}\\
 \textnormal{Dean's List, 4.0 GPA}\\
-\textbf{Courses:} Data Structures and Algorithms, Database Systems, Computer Networking and Communication, Algorithm Analysis, Theory of Computation, Linear Algebra, Transition to Adv Mathematics, Multivariate Calculus, Probability Theory, Statistical Theory, Applied Statistics
+\textbf{Courses:} \textnormal{Data structures and Algorithms, Databases, Comp Networking, Algo Analysis, Theory of Comp, Lin Algebra, Adv Math Transition, Multivar Calc, Prob Theory, Stat Theory, Applied Stats}
 
 
 \sectionrule{Skills}
 \begin{itemize}
-    \item \textbf{Programming Languages:} C++, Python, JavaScript, R
-    \item \textbf{Web development:} HTML, CSS, Bootstrap, React.js, Node.js, MongoDB
-    \item \textbf{Other Skills:} LaTeX, UNIX, Git, Korean, Japanese, English
+    \item \textnormal{Programming Languages:} C++, Python, JavaScript, R
+    \item \textnormal{Web development:} HTML, CSS, Bootstrap, React.js, Node.js, MongoDB
+    \item \textnormal{Other:} LaTeX, UNIX, Git, Korean, Japanese, English
 \end{itemize}
 
 \sectionrule{Experiences}
-\textbf{\large AI Solutions Intern} \hfill \textnormal{Jan 2024 - present}\\
+\textbf{AI Solutions Intern} \hfill \textnormal{Jan 2024 - present}\\
 \textit{Matsuo Institute} \hfill \textit{Remote}
 \begin{itemize}
-    \item Developed AI solutions for a new business project in Fortune 1000 global company.
-    \item Conducted research, interviews, and surveys for informed business development.
-    \item Utilized LLM and ChatGPT API for prototype generation.
-    \item Contributed to MVP development and conducted PoC.
-    \item Presented data analysis and value propositions in client interactions.
+    \item Conducted PoC by investigating the industry and estimated 3 bilion dollar market size
+    \item Contributed to MVP development by researching 10+ relevant papers for best practice alignment
+    \item Developed MVP by creating 100+ Lo-Fi MVPs and conducting AB test using fine-tuned llm
 \end{itemize}
-\textbf{\large Research Assistant} \hfill \textnormal{Jan 2024 - present}\\
+\textbf{Research Assistant} \hfill \textnormal{Jan 2024 - present}\\
 \textit{The College of Wooster} \hfill \textit{Wooster, OH}
 \begin{itemize}
     \item Conducted research in the field of perturbation theory within mathematics
-    \item Reviewed and evaluated research papers relevant to probabilistic and stochastic phenomena.
-    \item Computed perturbations of various mathematical objects.
-    \item Explored deep reinforcement learning (DRL) as an effective approach in Stock Prediction Using Event-based Sentiment Analysis.
-    \item Researched machine learning papers and implemented models using Python.
+    \item Reviewed and evaluated research papers relevant to probabilistic and stochastic phenomena
+    \item Computed perturbations of various mathematical objects
+    \item Explored deep reinforcement learning (DRL) as an effective approach in Stock Prediction Using Event-based Sentiment Analysis
+    \item Researched machine learning papers and implemented models using Python
 \end{itemize}
 
 \sectionrule{Projects}
@@ -70,41 +68,42 @@
 \href{https://github.com/uliba3/CircleGame}{\faGithub}
 \textit{HTML, CSS, JavaScript}
 \begin{itemize}
-    \item Casual game to place and grow circles while avoiding collisions with the canvas edges or other circles.
-    \item Utilized event listeners for keyboard and mouse inputs to control game interactions.
-    \item Used localStroage to persist the highest score across sessions.
+    \item Place and grow circles while avoiding collisions with the canvas edges or other circles
+    \item Manage game interactions by utilizing event listeners for keyboard and mouse inputs
+    \item Save the high score across session by storing game score locally in localStroage
 \end{itemize}
 \textbf{Task Manager}
 \href{https://uliba3.github.io/TaskManager/}{\faGlobe}
 \href{https://github.com/uliba3/TaskManager}{\faGithub}
 \textit{React}
 \begin{itemize}
-    \item A web-based task management tool to add, edit, delete, and sort tasks.
-    \item Used redux and localStorage to manage and store tasks saved.
+    \item A web-based task management tool to add, edit, delete, and sort tasks
+    \item Managed state of the tasks within application using Redux to handle complex state changes
+    \item Added drag and drop functionality to reorder tasks using the react-beautiful-dnd library
 \end{itemize}
 \textbf{Full-stack QA webapp}
 \href{https://white-voice-4708.fly.dev/}{\faGlobe}
 \href{https://github.com/uliba3/Q-A-backend}{\faGithub}
-\textit{React, Node.js, MongoDB, Fly.io}
+\textit{React, Node.js, MongoDB}
 \begin{itemize}
-    \item Enables users to post and see answers to random questions saved using MongoDB.
-    \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
+    \item Enables users to post and see answers to random questions from other users
+    \item Handle user requests and manage data using RESTful API through Express.js and MongoDB
+    \item Authenticates users by encrypting passwords in bcrypt and using jsonwebtoken for secure access
 \end{itemize}
 \textbf{Full-stack BookStore webapp}
 \href{https://bookstore-backend.fly.dev/}{\faGlobe}
 \href{https://github.com/uliba3/BookStore-backend}{\faGithub}
-\textit{React, Node.js, MongoDB, Bootstrap, Fly.io, Google Books API}
+\textit{React, Node.js, MongoDB, Bootstrap, Jest}
 \begin{itemize}
-    \item Users can explore and save books using the Google Books API, with data stored in MongoDB.
-    \item Employed the bcrypt library to encrypt passwords, ensuring robust security measures.
-    \item Implemented a RESTful API using Node.js and Express.js to handle HTTP requests and responses.
-    \item Utilized Bootstrap to implement a modern interface, enhancing the overall design and user experience.
+    \item Users can explore and save books to their personal library, and view details about each book
+    \item Access to a vast library of books using the Google Books API
+    \item Ensured the functionality of the backend by implementing test cases using Jest
 \end{itemize}
 
 \sectionrule{Activities}
 \textbf{Competitive Programming} \hfill \textnormal{Aug 2020 - present}
 \begin{itemize}
-    \item 4th in Supercomputing Contest 2021(by Tokyo Tech), 18th in PC koushien Qualifiers 2020(by UoAizu)
+    \item 4th in Supercomputing Contest 2021(Tokyo Tech), 18th in PC koushien Qualifiers 2020(UoAizu)
 \end{itemize}
 
 \end{document}

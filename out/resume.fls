@@ -20,6 +20,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -107,9 +109,6 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
@@ -122,5 +121,4 @@ INPUT c:/Users/sellu/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
