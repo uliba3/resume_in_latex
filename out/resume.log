@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.7)  27 FEB 2024 21:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.7)  19 MAR 2024 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -268,7 +268,7 @@ Here is how much of TeX's memory you used:
  319 hyphenation exceptions out of 8191
  75i,5n,79p,282b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/sellu/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk><c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on out/resume.pdf (1 page, 76288 bytes).
+Output written on out/resume.pdf (1 page, 76297 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
