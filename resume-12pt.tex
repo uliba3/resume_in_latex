@@ -1,0 +1,114 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome}
+
+%add portfolio website in project
+
+\begin{document}
+
+\linespread{1}\selectfont
+\setlist[itemize]{left=0pt, itemsep=-5pt, topsep=0pt, after=\vspace{0pt}, label=\tiny\textbullet}
+\newcommand{\sectionrule}[1]{
+  \vspace{5pt}
+  \RaggedRight
+  {\large\textnormal{#1}}
+  \hrule
+  \vspace{3pt}
+}
+\pagestyle{empty}
+
+\begin{center}
+    \textbf{\Large Soobin Yang}\\
+    \faPhone { 330-990-4796}
+    \faEnvelope \href{mailto:yasoo8449@gmail.com}{ yasoo8449@gmail.com} \hspace{1pt}
+    \faGithubSquare \href{https://github.com/uliba3}{ github.com/uliba3} \hspace{1pt}
+    \faLinkedinSquare \href{https://linkedin.com/in/soobin84}{ linkedin.com/in/soobin84}
+\end{center}
+
+\vspace{-10pt}
+
+\sectionrule{Education}
+\textbf{B.A. in Computer Science and Math}\textnormal{, The College of Wooster - 3.9 GPA} \hfill \textnormal{Aug 2022 - May 2025}\\
+
+\sectionrule{Experience}
+\textbf{Software Developer Intern}\textnormal{, Omniscience Strategies - San Jose, CA} \hfill \textnormal{May 2024 - present}\\
+\begin{itemize}
+    \item Developed a demo product through the full agile software development life cycle. Contributed to frontend, backend, infra, and DevOps tasks using JavaScript, Python, SQL, Docker, Terraform, and Bash.
+    %\item Developed a Chrome extension version of the product, wrote 50\% of the code. Integrated Firebase authentication login by copying firebase library directly and enabling a chat feature using REST API.
+    \item Integrated login and chat feature in chrome extension version of the product by utilizing REST API and Firebase authentication. Avoiding pulling external libraries to follow manifest v3's policy.
+    \item Added multi user support by data isolation using multi-tenancy in Weaviate to increase the security, migrating 5000+ data entries in single-tenant to multi-tenant database with 0\% data loss.
+    \item Automated AWS deployment using Terraform and Docker, reduced deployment time by 30\%. Enhanced security by making server connections private and retrieving keys from AWS Secret.
+    \item Designed a testing pipeline that runs when code is pushed, made 50+ test cases and boosted test coverage by 20\%. Created server status monitoring shell script, covering 80\% of the API endpoints.
+\end{itemize}
+
+\textbf{Web Designer}\textnormal{, The College of Wooster - Wooster, OH} \hfill \textnormal{Apr 2024}\\
+\begin{itemize}
+    \item Refactored \href{https://mmproject-three.vercel.app/}{the college's photography website} using HTML, CSS, and JavaScript. Developed photo categorization feature for managing 150+ photos, and improved UI/UX based on user feedback.
+    \item Optimized performance with lazy loading and code splitting, reducing page load time by 40\%.
+\end{itemize}
+
+\textbf{CS Research Assistant}\textnormal{, The College of Wooster - Remote} \hfill \textnormal{Jan - May 2024}\\
+\begin{itemize}
+    \item Documented 30+ papers on increasing the performance of large language models in tabular data.
+    \item Found methods from existing research to improve accuracy by 20\% using RAG and CoT technique.
+\end{itemize}
+
+\sectionrule{Activities}
+\textbf{Competitive Programming}
+\textit{C++}
+\begin{itemize}
+    \item Coded efficient data structures, algorithms, and math solutions to solve problems in competition.
+    \item 18th/500 in PC Koushien Qualifiers 2020 (UoAizu) as a team of duo, 4th/20 in SuperCon 2021 (Tokyo Tech) as a team of triple, 4th/20 in Denison Programming Contest 2024 as a team of quad.
+    %\item Placed 18th of 500 teams in 2020 PC Koushien Qualifiers at Aizu University, competing as a duo.
+    %\item Placed 4th of 20 teams in SuperCon 2021 held by Tokyo Tech University, competing as a trio.
+    %\item Placed 4th of 20 teams in Denison Programming Contest 2024, competing as a quad.
+\end{itemize}
+
+\textbf{Fun Hackathon 2024}
+\href{https://echodelphi.github.io/}{\faGlobe}
+\href{https://github.com/echodelphi/echodelphi.github.io}{\faGithub}
+\textit{TypeScript, React}
+\begin{itemize}
+    \item Placed 2nd of 8 teams in Fun Hackathon 2024 held by Hacker Dojo. Started from finding 5 teammates, ideating, designing, coding, and presenting to the 50+ audience in 2 days.
+    \item Made a frontend website to summarize live audio transcription real time using deepgram and llm API.
+    \item Coded llm integration part and articulated the technical stack for 1 minute during the presentation.
+\end{itemize}
+
+\sectionrule{Projects}
+\textbf{Full-stack BookStore web application}
+\href{https://bookstore-backend.fly.dev/}{\faGlobe}
+\href{https://github.com/uliba3/BookStore-backend}{\faGithub}
+\textit{React, Express.js, Node.js, MongoDB, Bootstrap}
+\begin{itemize}
+    \item Full-stack web application to log in, search, and save 40+ million books from Google Books API.
+    \item Erased 70\% redundant api calls by saving book's data to user's table and login token in local storage.
+\end{itemize}
+
+\textbf{X (Twitter) News Summarization bot}
+\href{https://x.com/NewsWorldJapan}{\faGlobe}
+\href{https://github.com/uliba3/News_World_Japan_X_bot}{\faGithub}
+\textit{Python, Docker, GitHub Actions}
+\begin{itemize}
+    \item Bot with 50k+ post views, translates summarized english news by GitHub Actions' CI/CD pipeline.
+    \item Reduce pipeline run time by 3 minutes using docker and read keys from repository secrets for security.
+    \item Web scrape contents in BeautifulSoup and summarize the content to 200 characters using gemini api.
+\end{itemize}
+
+\textbf{AI Web Chatbot Chrome Extension}
+\href{https://chromewebstore.google.com/detail/eeckhenackiojmofodkcoogkkfggkkap}{\faGlobe}
+\href{https://github.com/uliba3/ai-web-chatbot}{\faGithub}
+\textit{HTML, CSS, JavaScript}
+\begin{itemize}
+    \item Chrome extension with active users, can ask AI about the current web page using gemini API.
+    \item Saves API key in chrome storage, parse HTML into text and make API request of up to 700k+ words.
+    \item Makes movable and resizable chatbox by event listeners and DOM manipulation with 20ms latency.
+\end{itemize}
+
+\sectionrule{Skills}
+\textbf{Frontend:} \textnormal{HTML, CSS, Bootstrap, JavaScript, React}\\
+\textbf{Backend:} \textnormal{Node.js, Express.js, FastAPI, SQL, MongoDB, Weaviate}\\
+\textbf{Tools/Other:} \textnormal{C++, Python, Git, Terraform, Docker, AWS, Firebase, Bash}\\
+\end{document}
